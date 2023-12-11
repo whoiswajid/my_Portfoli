@@ -1,10 +1,10 @@
-import { useEffect } from "react"
+// import { useEffect } from "react"
 
 const AboutMe = () => {
 
-    useEffect(() =>{
-        Aos.init(),
-    },[])
+    // useEffect(() =>{
+    //     Aos.init(),
+    // },[])
 
     return (
         <div>

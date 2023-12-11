@@ -12,12 +12,7 @@ const Footer = () => {
                             </svg>
                         </div>
                         <ul className="flex flex-wrap items-center space-x-4 sm:space-x-8">
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Terms of Use</a>
-                            </li>
-                            <li>
-                                <a rel="noopener noreferrer" href="#">Privacy</a>
-                            </li>
+                            <p>© Copyright 1986. All Rights Reserved.</p>
                         </ul>
                     </div>
                     <ul className="flex flex-wrap pl-3 space-x-4 sm:space-x-8">
