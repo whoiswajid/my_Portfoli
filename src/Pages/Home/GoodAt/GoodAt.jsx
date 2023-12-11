@@ -13,7 +13,7 @@ const GoodAt = () => {
             <h1 className='text-center font-bold text-2xl hover:text-blue-400'>
                 Skills That i know
             </h1>
-             <div className='grid grid-cols-5 '>
+             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 '>
             <Progress  progress={82} subtitle='Html' />
             <Progress  progress={80} subtitle='CSS'/>
             <Progress  progress={75} subtitle='JavaScript'/>

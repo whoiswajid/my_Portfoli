@@ -36,7 +36,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end">
 
-                    <a className="btn text-blue-400" > <IoCloudDownloadSharp />  DownLoad Resume</a>
+                    <a href="/public/Salam.pdf" download className="btn text-blue-400" > <IoCloudDownloadSharp />  DownLoad Resume</a>
                 </div>
             </div>
         </div>

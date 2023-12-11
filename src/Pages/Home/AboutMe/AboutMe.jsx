@@ -1,13 +1,18 @@
-
+import { useEffect } from "react"
 
 const AboutMe = () => {
+
+    useEffect(() =>{
+        Aos.init(),
+    },[])
+
     return (
         <div>
 
             <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 ">
-                <div className="max-w-xs p-6   rounded-2xl shadow-md">
+                <div data-aos="fade-right" className="max-w-xs p-6   rounded-2xl shadow-md">
                     <img src="https://i.ibb.co/LxxnV6f/Whats-App-Image-2023-12-08-at-21-29-29-8d989f23.jpg" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
-                    
+
                 </div>
                 <div>
                     <h1 className="text-4xl font-mono font-bold hover:text-blue-400">Self-Summary</h1>
