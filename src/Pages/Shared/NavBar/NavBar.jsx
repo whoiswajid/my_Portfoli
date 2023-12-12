@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { FaAddressCard } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { GoProject } from "react-icons/go";
+import pdf from "../../../../public/Salam.pdf"
+
 const NavBar = () => {
 
     const navOptions = <>
@@ -36,7 +38,7 @@ const NavBar = () => {
                 </div>
                 <div className="navbar-end">
 
-                    <a href="/Salam.pdf" download className="btn text-blue-400" > <IoCloudDownloadSharp />  DownLoad Resume</a>
+                    <a href={pdf} download className="btn text-blue-400" > <IoCloudDownloadSharp />  DownLoad Resume</a>
                 </div>
             </div>
         </div>
