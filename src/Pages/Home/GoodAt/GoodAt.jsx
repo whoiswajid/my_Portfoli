@@ -9,7 +9,10 @@ const GoodAt = () => {
 
 
     return (
-        <div>
+        <div data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="250"
+        data-aos-offset="0">
             <h1 className='text-center font-bold text-2xl hover:text-blue-400'>
                 Skills That i know
             </h1>

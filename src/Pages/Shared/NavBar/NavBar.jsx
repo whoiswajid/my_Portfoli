@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaAddressCard } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { GoProject } from "react-icons/go";
-import pdf from "../../../../public/Salam.pdf"
+import pdf from "../../../../public/Daiyan's Resume.pdf"
 
 const NavBar = () => {
 

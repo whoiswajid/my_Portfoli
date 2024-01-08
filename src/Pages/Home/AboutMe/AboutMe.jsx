@@ -1,10 +1,8 @@
-// import { useEffect } from "react"
+
 
 const AboutMe = () => {
 
-    // useEffect(() =>{
-    //     Aos.init(),
-    // },[])
+    
 
     return (
         <div>
@@ -14,7 +12,7 @@ const AboutMe = () => {
                     <img src="https://i.ibb.co/LxxnV6f/Whats-App-Image-2023-12-08-at-21-29-29-8d989f23.jpg" alt="" className="object-cover object-center w-full rounded-md h-72 dark:bg-gray-500" />
 
                 </div>
-                <div>
+                <div data-aos="fade-down-left">
                     <h1 className="text-4xl font-mono font-bold hover:text-blue-400">Self-Summary</h1>
                     <div className="max-w-md p-6 overflow-hidden rounded-2xl shadow  hover:text-blue-400 ">
                         <article>
@@ -27,11 +25,11 @@ const AboutMe = () => {
 
             </div>
 
-            <div className="grid grid-cols-1 gap-5 md:grid-cols-1 lg:grid-cols-2 ">
+            <div data-aos="zoom-out-right" className="grid grid-cols-1 gap-5 md:grid-cols-1 lg:grid-cols-2 ">
                 <section className="card-body rounded-2xl shadow-lg hover:text-blue-400">
                     <div className="container  mx-auto space-y-8 lg:max-w-3xl">
                         <h2 className="text-2xl font-bold md:text-4xl">Exprience</h2>
-                        <h2 className="text-lg text-gray-500">Still learning</h2>
+                        <h2 className="text-lg text-gray-500"></h2>
                         <div className="space-y-8">
                             <div>
                                 <h3 className="mb-3 text-lg font-bold md:text-xl">2023</h3>
